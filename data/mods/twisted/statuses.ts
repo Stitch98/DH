@@ -231,7 +231,7 @@ export const BattleStatuses: {[k: string]: ModdedPureEffectData} = {
 		onModifyType(move, pokemon) {
             let t = pokemon.baseSpecies.types.indexOf(move.type);
 			if (t >= 0 && move.category !== 'Status' && pokemon.volatiles['twisted']) {
-                move.type = (pokemon.types.length === 1) ? pokemon.types[0] : pokemon.types[t];
+                move.type = pokemon.types[t];
             }
 		},
         onSwitchOut(pokemon) {
