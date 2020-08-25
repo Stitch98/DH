@@ -48,7 +48,8 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 		color: "Yellow",
 		prevo: "Sunkern",
 		evoType: "useItem",
-		evoItem: "Sun Stone",
+		evoItem: "Fire Stone",
+		evos: ["Floraflare"],
 		eggGroups: ["Grass"],
 	},
 	floraflare: {
@@ -146,6 +147,7 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 		prevo: "Snom-Kanto",
 		evoType: "levelFriendship",
 		evoCondition: "at night",
+		evos: ["Behemoth"],
 		eggGroups: ["Bug"],
 	},
 	behemoth: {
@@ -609,7 +611,7 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 	clefairyhoenn: {
 		num: 35,
 		name: "Clefairy",
-		types: ["Fairy"],
+		types: ["Fairy", "Ghost"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 70, atk: 60, def: 65, spa: 45, spd: 48, spe: 35},
 		abilities: {0: "Cursed Body", 1: "Magic Guard", H: "Friend Guard"},
@@ -624,7 +626,7 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 	clefatal: {
 		num: -8016,
 		name: "Clefatal",
-		types: ["Fairy"],
+		types: ["Fairy", "Ghost"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 95, atk: 95, def: 90, spa: 60, spd: 73, spe: 70},
 		abilities: {0: "Cursed Body", 1: "Magic Guard", H: "Prankster"},
@@ -683,7 +685,7 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 		heightm: 0.5,
 		weightkg: 70,
 		color: "Brown",
-		evos: ["Palossand"],
+		evos: ["Palojjunk"],
 		eggGroups: ["Amorphous"],
 	},
 	palojjunk: {
@@ -744,7 +746,7 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 		heightm: 1,
 		weightkg: 20.1,
 		color: "Green",
-		prevo: "Duosion",
+		prevo: "Duosion-Hoenn",
 		evoLevel: 41,
 		eggGroups: ["Amorphous"],
 	},
@@ -783,6 +785,7 @@ export const BattlePokedex: {[k: string]: ModdedSpeciesData} = {
 		color: "White",
 		prevo: "Ducklett-Hoenn",
 		evoLevel: 35,
+		evos: "Flambiguos",
 		eggGroups: ["Water 1", "Flying"],
 	},
 	flambiguos: {
